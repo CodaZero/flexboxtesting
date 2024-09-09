@@ -1,0 +1,103 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap:15px;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    background-color: black;
+    
+}
+
+.top{
+    display:flex;
+}
+
+.box-1{
+    background-color: hsla(0, 100%, 50%, 0.692);
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border:50px;
+    display:flex;
+}
+
+.box-2{
+    background-color: rgba(0, 255, 42, 0.781);
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border:50px
+}
+
+.box-3{
+    background-color: rgba(4, 0, 255, 0.678);
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border:50px
+}
+
+.box-4{
+    background-color: rgba(251, 255, 0, 0.664);
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border:50px
+}
+
+.box-5{
+    background-color: rgba(0, 247, 255, 0.664);
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border:50px
+}
+
+.box-6{
+    background-color: rgba(253, 82, 239, 0.664);
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border:50px
+}
+
+.box-7{
+    background-color: rgba(252, 125, 41, 0.555);
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border:50px
+}
+
+.box-8{
+    background-color: rgba(0, 255, 106, 0.801);
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border:50px;
+}
+
+.test{
+    display:flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    border: solid green;
+    flex-wrap: wrap;
+}
+
+.toptxt{
+    display: flex;
+    padding:15px 15px;
+    margin:5px;
+    align-self: flex-start;
+}
+
+.bottomtxt{
+    display:flex;
+    padding: 15px 15px;
+    margin:5px;
+    align-self: flex-start;
+}
+
+.cat{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width:450px;
+    height:350px;
+    flex-shrink:1;
+}
+
