@@ -7,13 +7,15 @@
     justify-content:space-evenly;
     gap:15px;
     flex-wrap: nowrap;
-    flex-grow: 1;
+    flex-grow: 2;
     background-color: black;
     
 }
 
 .top{
     display:flex;
+    flex-wrap: nowrap;
+    flex-grow: 2;
 }
 
 .box-1{
@@ -83,7 +85,9 @@
 
 .test{
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-grow: 2;
+    flex:auto
 }
 
 .toptxt{
@@ -110,4 +114,12 @@
 .toptext{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 165px;
+}
+
+html{
+    background-color: rgba(200, 101, 224, 0.705);
 }
